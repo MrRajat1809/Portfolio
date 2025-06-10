@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Priyanshu Kumar's portfolio website" />
+    <title>Priyanshu Kumar | Website</title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="styles.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
+
+<body>
+    <!--contains all the div-->
+    <div id="all">
+        <!--mouse  follower-->
+        <div class="cursor"></div>
+        <!--mouse  follower-->
+        <!--loader-->
+        <div id="loader">
+            <span class="color">Priyanshu</span>Kumar
+        </div>
+        <!--loader-end-->
+        <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+        <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <img src="images/willy wonka logo.png" alt="logo">
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link">HOME</a>
+                <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
+                <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
+                <a href="Priyanshu_Kumar_Resume.pdf" target="_blank" download id="cv-link" data-text="DOWNLOAD CV">DOWNLOAD CV</a>
+            </div>
+        </div>
+
+        <!--Navigator-Fullscreen END-->
+        <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img src="images/willy wonka logo.png" alt="logo">
+            <div class="menubar">
+                <!-- Add the word "MENU" next to the icon -->
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+                <span class="menu-label">MENU</span>
+            </div>
+        </div>
+        <!--Menubar End-->
+        <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+            <!--Social Media Links-->
+            <div class="social-media-links">
+                <!-- <a href="#"><img src="images/git.png" class="social-media" alt="github-logo"></a> -->
+                <a target="_blank" href="https://www.linkedin.com/in/priyanshu-kumar1809/"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a>
+                <a target="_blank" href="https://github.com/MrRajat1809"><img src="images/youtube.png" class="social-media" alt="youtube-logo"></a>
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                    <div class="firstline"><span class="color">Priyanshu </span>Kumar</div>
+                    <div class="secondline">
+                        I'm a
+                        <span class="txt-rotate color" data-period="1200"
+                              data-rotate='[ "Game Developer with 4+ Years of Experience.", "Unity Game Developer.", "Tool Development Expert.", "Gameplay Systems Specialist.", "Unreal Engine Enthusiast.", "Game Mechanics Optimizer.", "Innovative Problem Solver." ]'></span>
+                        <span class="slash">|</span>
+                    </div>
+                    <div class="contact">
+                        <a href="Mailto:rkp6055@gmail.com">
+                            <img src="images/mail.png" alt="email-pic"
+                                 class="contactpic">
+                        </a><!--Your email Id write in place of "#"-->
+                        <a href="Tel:+91 7903734532">
+                            <img src="images/call.png" alt="phone-pic"
+                                 class="contactpic">
+                        </a><!--Your telephone number Id write in place of "#"-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            I'm a
+                            <span class="color">Game Developer</span>
+                            with 4+ years of experience.
+                        </span>
+                        <br>
+                        <span class="about-second-line">
+                            I'm a passionate game developer with expertise in Unity and Unreal Engine, dedicated to crafting seamless, interactive experiences. Leveraging advanced technologies like OpenCV for real-time interaction and Arduino for hardware integration, I specialize in developing unique gameplay features and custom tools that enhance productivity and consistency across projects. With a strong eye for detail and a focus on quality, I create solutions that are both innovative and impactful, driving each project toward successful, engaging outcomes.
+                        </span>
+                        <div class="cv">
+                            <a href="Priyanshu_Kumar_Resume.pdf" target="_blank" download style="
+                                 display: inline-block;
+                                 padding: 10px 20px;
+                                 background-color: #DC3545; /* Bootstrap 'danger' red */
+                                 color: #fff; /* White text color */
+                                 text-decoration: none; /* Remove underline */
+                                 border: none; /* Remove border */
+                                 border-radius: 4px; /* Rounded corners */
+                                 font-size: 16px;
+                                 cursor: pointer;
+                                 transition: background-color 0.3s ease;
+    "
+                               onmouseover="this.style.backgroundColor='#BD2130';"
+                               onmouseout="this.style.backgroundColor='#DC3545';">
+                                <!-- Revert to 'danger' red -->
+                                Download <span class="colors">CV</span>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <!--about picture-->
+                    <!-- <div class="about-img">
+                    <img src="images/images.jpg" alt="Image">
+                </div> -->
+                </div>
+            </div>
+            <!--services start-->
+            <div id="services">
+                <!--services header-->
+                <div class="services-heading wow">
+                    <span class="color">My</span> Services
+                </div>
+                <!--services header end-->
+                <!--services content-->
+                <div class="services-content">
+                    <div class="service-one service wow">
+                        <div class="service-img">
+                            <img src="images/unity.png" alt="service-one">
+                        </div>
+                        <div class="service-description">
+                            <h2>Unity3D Game Development</h2>
+                            <p>I am confident in my ability to create immersive and enjoyable games with Unity3D. My experience includes developing tools and game mechanics to enhance gameplay.</p>
+                        </div>
+                    </div>
+                    <div class="service-two service wow">
+                        <div class="service-img">
+                            <img src="images/unreal.png" alt="service-two">
+                        </div>
+                        <div class="service-description">
+                            <h2>Unreal Engine Game Development</h2>
+                            <p>I have extensive experience in creating stunning console, mobile, and PC games using Unreal Engine. My projects demonstrate my proficiency in using Blueprints and C++ for game development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+
+            <div id="skills-section">
+                <div class="services-heading wow">
+                    Unity <span class="color">Skills</span>
+                </div>
+                <ul class="description">
+                    <li>Deep expertise in Unity for real-time application development, including intricate hardware-software integration using OpenCV and Arduino</li>
+                    <li>Proven ability to optimize Unity environments for maximum performance and efficiency</li>
+                    <li>Experienced in building user-centric, dynamic UI/UX within Unity, enhancing interactivity and user engagement</li>
+                    <li>Versatile in both 3D and 2D game development, with a focus on creating seamless gameplay experiences</li>
+                    <li>Exceptional problem-solving skills and the ability to perform under pressure</li>
+                    <li>Strong project management and communication abilities, ensuring clear interaction and project alignment with team members and stakeholders</li>
+                </ul>
+            </div>
+
+            <div id="skills-section">
+                <div class="services-heading wow">
+                    Unreal Engine <span class="color">Skills</span>
+                </div>
+                <ul class="description">
+                    <li>Proficient in Unreal Engine, leveraging Blueprints and C++ to create immersive game environments and intricate gameplay mechanics</li>
+                    <li>Skilled in implementing advanced Unreal Engine features, including but not limited to physics-based gameplay, complex AI behaviours, and real-time networked game systems</li>
+                    <li>Strong foundation in visual scripting with Blueprints, enabling rapid prototyping and iterative development for both gameplay and interaction design</li>
+                </ul>
+            </div>
+            <div id="skills">
+                <div class="skills-header">
+                    Core <span class="color">Competencies</span>
+                </div>
+                <div class="skills-content" style="text-align: center;">
+                    <!-- Unity Skill -->
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                <ul><li>Unity Development</li></ul>
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="unity-progress wow" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+                    <!-- C# Programming -->
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                <ul><li>C# Programming</li></ul>
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="Csharp-progress wow" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                    <!-- Python Scripting -->
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                <ul><li>Editor Scripting</li></ul>
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="editor-progress wow" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                    <!-- Unreal Engine Experience -->
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                <ul><li>Unreal Engine Development</li></ul>
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="ue-progress wow" style="width: 65%;">65%</div>
+                        </div>
+                    </div>
+                    <!-- C++ Development -->
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                <ul><li>C++ Development</li></ul>
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="C-progress wow" style="width: 50%;">50%</div>
+                        </div>
+                    </div>
+                    <!-- Blueprint Scripting -->
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                <ul><li>Blueprint Scripting</li></ul>
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="blueprint-progress wow" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--copyright-section-->
+        <div class="footer">
+            <div class="footer-text">
+                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Priyanshu Kumar
+            </div>
+        </div>
+        <!--copyright-section-->
+    </div>
+    <!--about end-->
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="portfolio-header">
+            <span class="color"> My </span> Projects
+            <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
+        </div>
+        <div id="portfolio-content">
+            <style>
+                /* Smooth animated gradient background for text */
+                .animated-downloads {
+                    font-weight: bold;
+                    background: linear-gradient(45deg, #ff00cc, #ff3366, #ff6633, #ffcc33, #ccff33, #33ff66, #33ffcc, #33ccff, #3366ff, #6633ff, #cc33ff, #ff33cc, #ff00cc );
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    animation: gradientMove 5s infinite linear;
+                    background-size: 500%; /* Larger background size for smoother flow */
+                }
+
+                /* Animation for moving gradient */
+                @keyframes gradientMove {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+
+                    100% {
+                        background-position: 100% 50%;
+                    }
+                }
+
+                /* Placeholder for video/image */
+                .portfolio-placeholder {
+                    width: 100%;
+                    height: 300px;
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-align: center;
+                    border-radius: 8px;
+                    position: relative;
+                    overflow: hidden;
+                }
+
+                .portfolio-placeholder::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+                    animation: shimmer 2s infinite;
+                }
+
+                @keyframes shimmer {
+                    0% { left: -100%; }
+                    100% { left: 100%; }
+                }
+
+                .portfolio-category {
+                    text-align: center;
+                    margin: 60px 0 40px 0;
+                    padding: 20px 0;
+                    border-top: 2px solid #333;
+                }
+
+                .portfolio-category h2 {
+                    font-size: 32px;
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+
+                .portfolio-category p {
+                    font-size: 16px;
+                    color: #ccc;
+                    max-width: 600px;
+                    margin: 0 auto;
+                    line-height: 1.6;
+                }
+            </style>
+
+            <!-- Project 1 -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <video controls autoplay muted>
+                        <source src="videos/setup-tool.webm" type="video/webm" />
+                    </video>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Project Setup Tool</h2>
+                    <p>A powerful tool designed to set up projects with predefined settings and structures, enabling developers to start working within seconds and maintain consistent architecture across projects.</p>
+                    <ul>
+                        <li>Customizable project setup</li>
+                        <li>Automation of repetitive setup tasks</li>
+                        <li>Ensures consistency and efficiency across projects</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <video controls autoplay muted>
+                        <source src="videos/hangman-game.webm" type="video/webm" />
+                    </video>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Hangman Game</h2>
+                    <p>A simple hangman game developed to practice and demonstrate the SOLID principles.</p>
+                    <ul>
+                        <li>Clean code architecture adhering to SOLID principles</li>
+                        <li>Simple, intuitive gameplay</li>
+                        <li>Well-documented code for educational purposes</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <video controls autoplay muted>
+                        <source src="videos/timer-tool.webm" type="video/webm" />
+                    </video>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Timer Tool</h2>
+                    <p>A versatile tool for implementing various timers in a game, with advanced scheduling features for complex timing requirements.</p>
+                    <ul>
+                        <li>Support for multiple timer types</li>
+                        <li>Advanced scheduling and management features</li>
+                        <li>Custom editor window for real-time management</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <video controls autoplay muted>
+                        <source src="videos/ui-manager.webm" type="video/webm" />
+                    </video>
+                </div>
+                <div class="portfolio-text">
+                    <h2>UI Manager Tool</h2>
+                    <p>A tool to streamline UI element references in large and complex UIs. It also served as a learning project for editor scripting.</p>
+                    <ul>
+                        <li>Easy reference management for UI elements</li>
+                        <li>Custom editor windows for streamlined development</li>
+                        <li>Improves development efficiency in large projects</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Project 5 -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <video controls autoplay muted>
+                        <source src="videos/internet-manager.webm" type="video/webm" />
+                    </video>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Internet Manager Tool</h2>
+                    <p>A tool to manage internet connectivity within the game, allowing other components to perform internet-based tasks without handling connectivity issues directly.</p>
+                    <ul>
+                        <li>Robust internet connectivity management</li>
+                        <li>Easy integration with other game components</li>
+                        <li>Provides a unified interface for internet-related tasks</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Project 6 -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <video controls autoplay muted>
+                        <source src="videos/scene-switch.webm" type="video/webm" />
+                    </video>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Scene Switch Tool</h2>
+                    <p>A simple yet effective tool to quickly switch between and locate scenes using a custom editor window.</p>
+                    <ul>
+                        <li>Fast scene switching</li>
+                        <li>Easy navigation in the editor</li>
+                        <li>Enhances productivity during development</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- UI System -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🎮 UI System Demo<br>
+                            <small>Video Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>UI System (MVP)</h2>
+                    <p>A centralized UI management system with fluent builders and dual legacy/TextMeshPro support. Features custom editor tools and animation controllers for seamless UI development.</p>
+                    <ul>
+                        <li>Centralized UIManager with fluent builders</li>
+                        <li>ButtonBuilder, PanelBuilder, and more</li>
+                        <li>Legacy UI + TextMeshPro dual support</li>
+                        <li>Custom Editor tools (UIManagerEditor, TipWindow)</li>
+                        <li>UIAnimationController and layout configuration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Event System -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🎯 Event System (SHIVA)<br>
+                            <small>Screenshot Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Event System (SHIVA)</h2>
+                    <p>A modular, global event dispatching system that decouples communication across all subsystems. Essential for maintaining clean architecture in complex projects.</p>
+                    <ul>
+                        <li>Modular global event dispatching</li>
+                        <li>Decouples communication across subsystems</li>
+                        <li>Type-safe event handling</li>
+                        <li>Performance optimized for large-scale projects</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- State Machine System -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🧠 State Machine System<br>
+                            <small>Demo Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>State Machine System</h2>
+                    <p>Custom-built state machine for game state and UI state transitions. Provides robust state management with clear transition logic and debugging capabilities.</p>
+                    <ul>
+                        <li>Custom-built for game and UI states</li>
+                        <li>Clear transition logic and validation</li>
+                        <li>Built-in debugging and visualization</li>
+                        <li>Extensible architecture for complex state flows</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Internet Management System -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🌐 Internet Management<br>
+                            <small>Video Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Internet Management System</h2>
+                    <p>Comprehensive network availability management with automatic failover handling and seamless fallback logic for offline gameplay scenarios.</p>
+                    <ul>
+                        <li>Network availability monitoring</li>
+                        <li>Automatic failover handling</li>
+                        <li>Seamless offline/online transitions</li>
+                        <li>Configurable retry mechanisms</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- API System -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🔌 API Management System<br>
+                            <small>Screenshot Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>API System</h2>
+                    <p>Modular API manager with ScriptableObject-based configuration, built-in error handling, logging, retries, and Postman auto-integration capabilities.</p>
+                    <ul>
+                        <li>Modular API manager architecture</li>
+                        <li>ScriptableObject-based configuration</li>
+                        <li>Built-in error handling and retry logic</li>
+                        <li>Postman auto-integration support</li>
+                        <li>Comprehensive logging and debugging</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Socket System -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🔌 Socket System<br>
+                            <small>Demo Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Socket System</h2>
+                    <p>Event-driven socket manager supporting real-time multiplayer communication. Built for scalable games and tested in VR projects with high concurrency requirements.</p>
+                    <ul>
+                        <li>Event-driven socket management</li>
+                        <li>Real-time multiplayer communication</li>
+                        <li>Scalable architecture for high concurrency</li>
+                        <li>Battle-tested in VR projects</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Ads Integration System -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            📺 Ads Integration<br>
+                            <small>Video Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Ads Integration System</h2>
+                    <p>Complete advertising solution supporting Unity Ads and AdMob with fallback logic, configuration management, and comprehensive editor setup wizard.</p>
+                    <ul>
+                        <li>Unity Ads + AdMob support</li>
+                        <li>AdsManager singleton with fallback logic</li>
+                        <li>Banner/Interstitial/Rewarded ads</li>
+                        <li>Full Editor Setup Wizard</li>
+                        <li>Event hooks, cooldown, and test mode</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- In-App Purchase System -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🛒 In-App Purchase System<br>
+                            <small>Screenshot Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>In-App Purchase (IAP) System</h2>
+                    <p>Provider-agnostic IAP system with auto-restore functionality, test mode, mock purchase flows, and comprehensive editor configuration tools.</p>
+                    <ul>
+                        <li>Provider-agnostic design (Google Play, App Store)</li>
+                        <li>Auto restore and receipt validation</li>
+                        <li>Test mode with mock purchase flows</li>
+                        <li>Editor Config + Setup Wizard</li>
+                        <li>Demo scene with live integration examples</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Authentication System -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🔐 Authentication System<br>
+                            <small>Demo Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Authentication System</h2>
+                    <p>Comprehensive authentication solution with Google Sign-In, GPGS integration, guest fallback, and complete runtime UI components for seamless user onboarding.</p>
+                    <ul>
+                        <li>Google Sign-In, GPGS, and Guest fallback</li>
+                        <li>AuthManager with token refresh and silent login</li>
+                        <li>Runtime UI components (SimpleAuthUI, PlayGamesUI)</li>
+                        <li>AuthDebugger with F1 toggle for testing</li>
+                        <li>Complete event system integration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Popup System -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🎯 Popup System<br>
+                            <small>Video Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Popup System</h2>
+                    <p>Centralized management system for modal dialogs, alerts, and interactive popups. Integrated with UIManager for consistent styling and behavior.</p>
+                    <ul>
+                        <li>Centralized modal dialog management</li>
+                        <li>Queue-based popup system for complex flows</li>
+                        <li>Customizable popup templates and animations</li>
+                        <li>Integration with UIManager for consistent styling</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Loading System -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🔃 Loading System<br>
+                            <small>Screenshot Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Loading System</h2>
+                    <p>Advanced loading management system handling transition screens and async load visualizations with progress tracking and customizable loading indicators.</p>
+                    <ul>
+                        <li>Transition screen management</li>
+                        <li>Async load visualization with progress tracking</li>
+                        <li>Customizable loading indicators and animations</li>
+                        <li>Scene loading optimization and preloading</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Logging System -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            📝 Logging System<br>
+                            <small>Demo Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Logging System</h2>
+                    <p>Comprehensive logging solution for both editor and runtime environments. Features multiple log levels, file output, and integration with analytics and debugging tools.</p>
+                    <ul>
+                        <li>In-editor and runtime logging capabilities</li>
+                        <li>Multiple log levels and filtering</li>
+                        <li>File output and remote logging support</li>
+                        <li>Integration with AuthDebugger and analytics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Renaming System -->
+            <div class="portfolio portfolio-first">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🧾 Renaming System<br>
+                            <small>Video Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Renaming System (Editor Tool)</h2>
+                    <p>Advanced batch renaming tool with multiple rename modes, undo support, and case transformations. Essential for maintaining consistent naming conventions across large projects.</p>
+                    <ul>
+                        <li>RenameEngine with multiple modes (Simple, Regex, Pattern, Counter)</li>
+                        <li>Undo support and preview functionality</li>
+                        <li>Child inclusion and hierarchy processing</li>
+                        <li>Case transformations (Pascal, Snake, Camel, etc.)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Scene Navigation System -->
+            <div class="portfolio portfolio-second">
+                <div class="portfolio-image">
+                    <div class="portfolio-placeholder">
+                        <div>
+                            🌍 Scene Navigation<br>
+                            <small>Screenshot Coming Soon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-text">
+                    <h2>Scene Navigation System (Editor Tool)</h2>
+                    <p>Paginated scene navigator with caching and instant jump capabilities. Dramatically improves navigation efficiency in projects with numerous scenes.</p>
+                    <ul>
+                        <li>SceneManagerWindow with paginated interface</li>
+                        <li>SceneManagerData ScriptableObject with path caching</li>
+                        <li>Instant jump between scenes in large projects</li>
+                        <li>Search and filtering capabilities</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!--copyright-section-->
+        <div class="footer">
+            <div class="footer-text">
+                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Priyanshu Kumar
+            </div>
+        </div>
+    </div>
+    <!--portfolio end-->
+    <!--contact-->
+    <div id="contact">
+        <div class="contact-header">
+            Contact <span class="color"> Me</span>
+            <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+        </div>
+        <div class="contact-content">
+            <!--Contact form-->
+            <div class="contact-form">
+                <div class="form-header">
+                    <strong>Message me</strong>
+                </div>
+                <form id="myForm" action="#">
+                    <div class="input-line">
+                        <input id="name" type="text" placeholder="Name" class="input-name">
+                        <input id="email" type="email" placeholder="Email" class="input-name">
+                    </div>
+                    <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                    <button type="button" id="submit" value="send">Submit</button>
+                </form>
+
+            </div>
+            <!--Contact form-->
+            <!--Contact information-->
+            <div class="contact-info">
+                <div class="contact-info-header">
+                    <strong>Contact Info</strong>
+                </div>
+                <div class="contact-info-content">
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Name</h6>
+                            <p>Priyanshu Kumar</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Location</h6>
+                            <p> Patna, Bihar, India</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Call</h6>
+                            <p>+91 7903734532</p>
+                        </div>
+                    </div>
+
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Email</h6>
+                            <p>rkp6055@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Contact information end-->
+            </div>
+        </div>
+        <!--copyright-section You Can Remove After Downloading-->
+        <div class="footer">
+            <div class="footer-text">
+                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Priyanshu Kumar
+            </div>
+        </div>
+        <!--copyright-section-->
+    </div>
+    <!--contact end-->
+    </div>
+    <!--all the divisions-->
+    <script src="jquery.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="particles.min.js"></script>
+    <script src="scripts.js"></script>
+    <!--particles script-->
+    <script>
+        particlesJS("particles", { "particles": { "number": { "value": 60, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#fff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": true, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 7, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": false, "distance": 500, "color": "#ffffff", "opacity": 0.4, "width": 2 }, "move": { "enable": true, "speed": 3, "direction": "bottom", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "bubble" }, "onclick": { "enable": true, "mode": "repulse" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 0.5 } }, "bubble": { "distance": 400, "size": 4, "duration": 0.3, "opacity": 1, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Array of links in the order you want to navigate
+            const sections = ["home-link", "about-link", "portfolio-link", "contact-link"];
+
+            // Function to get the current active section
+            function getCurrentSectionIndex() {
+                for (let i = 0; i < sections.length; i++) {
+                    const section = document.getElementById(sections[i]);
+                    if (section && section.classList.contains("active")) {
+                        return i;
+                    }
+                }
+                // Default to the first section if none are active
+                return 0;
+            }
+
+            // Function to handle logo click behavior to cycle through sections
+            function handleLogoClick() {
+                // Determine the current active section
+                let sectionIndex = getCurrentSectionIndex();
+
+                // Move to the next section in the array
+                sectionIndex = (sectionIndex + 1) % sections.length;
+
+                // Trigger a click on the next section link
+                document.getElementById(sections[sectionIndex]).click();
+
+                // Update the active class for the current section
+                setActiveSection(sectionIndex);
+            }
+
+            // Function to set the active class on the current section
+            function setActiveSection(index) {
+                document.querySelectorAll(".navigation-links a").forEach(link => link.classList.remove("active"));
+                document.getElementById(sections[index]).classList.add("active");
+            }
+
+            // Select both logos and add the event listener to each
+            const logos = document.querySelectorAll("#navigation-bar img, #navigation-content .logo img");
+
+            logos.forEach(logo => {
+                logo.addEventListener("click", handleLogoClick);
+            });
+
+            // Set the first section as active initially
+            setActiveSection(0);
+        });
+    </script>
+
+</body>
+
+</html>
